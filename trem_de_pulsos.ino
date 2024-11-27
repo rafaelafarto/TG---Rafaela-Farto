@@ -10,7 +10,7 @@ void aciona(bool p1, bool p2, bool p3, bool p4){
     digitalWrite(pin2, p2);
     digitalWrite(pin3, p3);
     digitalWrite(pin4, p4);
-    delayMicroseconds(TEMPO); // Wait 50us
+    delayMicroseconds(TEMPO); // Wait 33us to complete 50us
 
     digitalWrite(pin1, LOW);
     digitalWrite(pin2, LOW);
