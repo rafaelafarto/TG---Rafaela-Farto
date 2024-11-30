@@ -16,7 +16,7 @@ void aciona(bool p1, bool p2, bool p3, bool p4){
     digitalWrite(pin2, LOW);
     digitalWrite(pin3, LOW);
     digitalWrite(pin4, LOW);
-    delayMicroseconds(TEMPO); // Wait 50us
+    delayMicroseconds(TEMPO); // Wait 33us to complete 50us
 }
 
 void setup() {
