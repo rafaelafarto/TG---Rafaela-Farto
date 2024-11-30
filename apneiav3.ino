@@ -68,7 +68,7 @@ void loop() {
     contador = 0;
   }
 
-  if (encheu){ // se janela cheia...
+  if (carregar_dados){ // se janela cheia...
     int  meumin = 2000;
     int  meumax = -1;
     for (int idx = 0; idx < NPONTOS; idx++){
